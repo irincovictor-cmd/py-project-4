@@ -1,0 +1,5 @@
+# School Library and Textbook Management System
+# Uses only Python standard library + Pillow (for image handling)
+# Pillow is optional for basic operation but recommended for cover images.
+
+Pillow>=9.0.0

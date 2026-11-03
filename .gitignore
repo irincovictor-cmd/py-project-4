@@ -1,0 +1,25 @@
+# Local data (preserve on user machine, do not commit)
+library_data.json
+
+# User-added images beyond starter set can stay local
+# (starter images are committed)
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

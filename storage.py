@@ -100,7 +100,8 @@ def ensure_starter_images():
         img.save(path)
 
 
-def default_data():n    """Return a fresh data structure with starter books."""
+def default_data():
+    """Return a fresh data structure with starter books."""
     from books_data import STARTER_BOOKS
     return {
         "books": deepcopy(STARTER_BOOKS),
